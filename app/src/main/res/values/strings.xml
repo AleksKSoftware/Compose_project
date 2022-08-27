@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sytac</string>
+    <string name="sort_by_abc">Countries by ABC</string>
+    <string name="error">Something is wrong</string>
+    <string name="sort_by_population_desc">Population by DESC</string>
+    <string name="sort_by_population_asc">Population by ASC</string>
+</resources>
