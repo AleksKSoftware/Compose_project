@@ -81,6 +81,14 @@ fun ListScreen() {
             is UIState.ShowList -> {
                 Column {
                     val listItems = (uiState as UIState.ShowList).list
+                    Text(
+                        text = stringResource(id = R.string.countries)+ listItems.size,
+                        color = Color.White,
+                        style = MaterialTheme.typography.caption,
+                        fontSize = 18.sp,
+                        modifier = Modifier
+                            .padding(10.dp)
+                    )
                     LazyColumn(
                         Modifier
                             .background(Blue200)
@@ -138,7 +146,7 @@ fun ItemCountry(
                 .weight(2f)
         )
         Text(
-            text = item.population.toString(),
+            text = stringResource(id = R.string.population) + item.population.toString(),
             color = Color.White,
             style = MaterialTheme.typography.caption,
             fontSize = 14.sp,

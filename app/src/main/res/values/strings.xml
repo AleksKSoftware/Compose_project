@@ -4,4 +4,6 @@
     <string name="error">Something is wrong</string>
     <string name="sort_by_population_desc">Population by DESC</string>
     <string name="sort_by_population_asc">Population by ASC</string>
+    <string name="population">Population: </string>
+    <string name="countries">"Total number of countries: "</string>
 </resources>
